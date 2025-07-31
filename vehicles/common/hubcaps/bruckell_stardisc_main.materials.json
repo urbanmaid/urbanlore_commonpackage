@@ -1,0 +1,109 @@
+{
+  "bruckell_harmonique_01a": {
+    "name": "bruckell_harmonique_01a",
+    "mapTo": "bruckell_harmonique_01a",
+    "class": "Material",
+    "persistentId": "bruckell_harmonique_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/hubcaps/bruckell_harmonique_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/hubcaps/bruckell_harmonique_01a_m.data.png",
+        "normalMap": "/vehicles/common/hubcaps/bruckell_harmonique_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/hubcaps/bruckell_harmonique_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "bruckell_liquidisc_01a": {
+    "name": "bruckell_liquidisc_01a",
+    "mapTo": "bruckell_liquidisc_01a",
+    "class": "Material",
+    "persistentId": "bruckell_liquidisc_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/hubcaps/bruckell_liquidisc_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/hubcaps/bruckell_liquidisc_01a_m.data.png",
+        "normalMap": "/vehicles/common/hubcaps/bruckell_liquidisc_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/hubcaps/bruckell_liquidisc_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "bruckell_stardisc_01a": {
+    "name": "bruckell_stardisc_01a",
+    "mapTo": "bruckell_stardisc_01a",
+    "class": "Material",
+    "persistentId": "bruckell_stardisc_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_m.data.png",
+        "normalMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "baseColorMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_m.data.png",
+        "normalMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/hubcaps/bruckell_stardisc_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "bruckell_summit_01a": {
+    "name": "bruckell_summit_01a",
+    "mapTo": "bruckell_summit_01a",
+    "class": "Material",
+    "persistentId": "bruckell_summit_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/hubcaps/bruckell_summit_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/hubcaps/bruckell_summit_01a_m.data.png",
+        "normalMap": "/vehicles/common/hubcaps/bruckell_summit_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/hubcaps/bruckell_summit_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  }
+}

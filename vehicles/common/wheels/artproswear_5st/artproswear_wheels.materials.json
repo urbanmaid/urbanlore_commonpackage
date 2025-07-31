@@ -1,0 +1,33 @@
+{
+  "artproswear_5st_01a" : {
+    "name" : "artproswear_5st_01a",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/null.dds",
+        "normalMap" : "vehicles/common/wheels/artproswear_5st/artproswear_5st_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/null.dds",
+        "specularPower" : 64,
+        "useAnisotropic" : true
+      },
+      {
+        "colorMap" : "vehicles/common/wheels/artproswear_5st/artproswear_5st_01a_d.dds",
+        "normalMap" : "vehicles/common/wheels/artproswear_5st/artproswear_5st_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/wheels/artproswear_5st/artproswear_5st_01a_s.dds",
+        "specularPower" : 64,
+        "useAnisotropic" : true
+      },
+      {},
+      {}
+    ],
+    "alphaRef" : 0,
+    "dynamicCubemap" : true,
+    "mapTo" : "artproswear_5st_01a",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true,
+    "translucentBlendOp" : "None"
+  }
+}

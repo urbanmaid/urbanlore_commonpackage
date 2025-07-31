@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moving Object</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #23234b;
+    }
+
+    #movingObject {
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      background-color: transparent;
+      background-image: url('dvdtitle.png'); /* Add the URL of your image */
+      background-size: cover;
+      background-position: center;
+      border-radius: 0%;
+    }
+  </style>
+</head>
+<body>
+
+<div id="movingObject"></div>
+
+<script>
+  const movingObject = document.getElementById('movingObject');
+
+  let positionX = 0;
+  let positionY = 0;
+  let speedX = 2;
+  let speedY = 2;
+
+  function moveObject() {
+    positionX += speedX;
+    positionY += speedY;
+
+    // Bounce off the borders
+    if (positionX + movingObject.clientWidth > window.innerWidth || positionX < 0) {
+      speedX = -speedX;
+    }
+
+    if (positionY + movingObject.clientHeight > window.innerHeight || positionY < 0) {
+      speedY = -speedY;
+    }
+
+    movingObject.style.left = `${positionX}px`;
+    movingObject.style.top = `${positionY}px`;
+
+    requestAnimationFrame(moveObject);
+  }
+
+  moveObject();
+</script>
+
+</body>
+</html>

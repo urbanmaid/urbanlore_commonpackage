@@ -1,0 +1,17 @@
+{
+    "header" : {
+        "version" : 1
+    },
+    "eventName" : "event:>Engine>default",
+    "samples" : 
+    [
+        [
+            ["art/sound/engine/daewon_diesel_i6com/daewon_diesel_i6com_engine_idle.ogg", 600],
+            ["art/sound/engine/daewon_diesel_i6com/daewon_diesel_i6com_engine_mid.ogg", 1920]
+        ],
+        [
+            ["art/sound/engine/daewon_diesel_i6com/daewon_diesel_i6com_engine_idle.ogg", 600],
+            ["art/sound/engine/daewon_diesel_i6com/daewon_diesel_i6com_engine_mid.ogg", 1920]
+        ]
+    ]
+}

@@ -1,0 +1,150 @@
+{
+"tire_F_205_65_15_alt_standard": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"205/65R15 Standard Front Tires",
+        "value":155,
+    },
+    "slotType" : "tire_F_15x7_alt",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["tire_01a_15x7_25", ["wheel_FR","tire_FR"], [], {"pos":{"x":-0.52, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.03, "y":1.017, "z":1.017}}],
+        ["tire_01a_15x7_25", ["wheel_FL","tire_FL"], [], {"pos":{"x": 0.52, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.03, "y":1.017, "z":1.017}}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$tirepressure_F", "range", "psi", "Wheels", 30, 0, 50, "Tire Pressure", "Relative to atmospheric pressure", {"subCategory":"Front"}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        {"disableMeshBreaking":false,"disableHubMeshBreaking":false},
+        {"hasTire":true},
+        {"enableTireReinfBeams":false},
+        {"enableTireLbeams":true},
+        {"enableTireSideReinfBeams":false},
+        {"enableTreadReinfBeams":true},
+        {"enableTirePeripheryReinfBeams":true},
+
+        //general settings
+        {"radius":0.326},
+        {"tireWidth":0.195},
+
+        //tire options
+        {"wheelSideBeamSpring":"$=$tirepressure_F*780","wheelSideBeamDamp":35},
+        {"wheelSideBeamSpringExpansion":401000,"wheelSideBeamDampExpansion":35},
+        {"wheelSideTransitionZone":0.08,"wheelSideBeamPrecompression":0.99},
+
+        {"wheelReinfBeamSpring":20000,"wheelReinfBeamDamp":185},
+        {"wheelReinfBeamDampCutoffHz":500,"wheelReinfBeamPrecompression":0.985},
+
+        {"wheelTreadBeamSpring":71000,"wheelTreadBeamDamp":80},
+        {"wheelTreadBeamDampCutoffHz":500,"wheelTreadBeamPrecompression":0.985},
+
+        {"wheelTreadReinfBeamSpring":181000,"wheelTreadReinfBeamDamp":55},
+        {"wheelTreadReinfBeamDampCutoffHz":500,"wheelTreadReinfBeamPrecompression":0.985},
+
+        {"wheelPeripheryBeamSpring":41000,"wheelPeripheryBeamDamp":45},
+        {"wheelPeripheryBeamDampCutoffHz":500,"wheelPeripheryBeamPrecompression":0.985},
+
+        {"wheelPeripheryReinfBeamSpring":81000,"wheelPeripheryReinfBeamDamp":35},
+        {"wheelPeripheryReinfBeamDampCutoffHz":500,"wheelPeripheryReinfBeamPrecompression":0.985},
+
+        //general tire values
+        {"nodeWeight":0.16},
+        {"nodeMaterial":"|NM_RUBBER"},
+        {"triangleCollision":false},
+        {"pressurePSI":"$tirepressure_F"},
+        {"dragCoef":5},
+
+        //groundmodel friction multipliers
+        {"frictionCoef":1.0},
+        {"slidingFrictionCoef":1.0},
+        {"treadCoef":0.7},
+
+        //advanced friction values
+        {"noLoadCoef":1.31},
+        {"loadSensitivitySlope":0.00013},
+        {"fullLoadCoef":0.5},
+        {"softnessCoef":0.7},
+
+        //deform values
+        {"wheelSideBeamDeform":22000,"wheelSideBeamStrength":30000},
+        {"wheelTreadBeamDeform":17000,"wheelTreadBeamStrength":22000},
+        {"wheelPeripheryBeamDeform":55000,"wheelPeripheryBeamStrength":55000},
+    ],
+},
+"tire_R_205_65_15_alt_standard": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"205/65R15 Standard Rear Tires",
+        "value":155,
+    },
+    "slotType" : "tire_R_15x7_alt",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["tire_01a_15x7_25", ["wheel_RR","tire_RR"], [], {"pos":{"x":-0.52, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.03, "y":1.017, "z":1.017}}],
+        ["tire_01a_15x7_25", ["wheel_RL","tire_RL"], [], {"pos":{"x": 0.52, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.03, "y":1.017, "z":1.017}}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$tirepressure_R", "range", "psi", "Wheels", 30, 0, 50, "Tire Pressure", "Relative to atmospheric pressure", {"subCategory":"Rear"}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        {"disableMeshBreaking":false,"disableHubMeshBreaking":false},
+        {"hasTire":true},
+        {"enableTireReinfBeams":false},
+        {"enableTireLbeams":true},
+        {"enableTireSideReinfBeams":false},
+        {"enableTreadReinfBeams":true},
+        {"enableTirePeripheryReinfBeams":true},
+
+        //general settings
+        {"radius":0.326},
+        {"tireWidth":0.195},
+
+        //tire options
+        {"wheelSideBeamSpring":"$=$tirepressure_R*780","wheelSideBeamDamp":35},
+        {"wheelSideBeamSpringExpansion":401000,"wheelSideBeamDampExpansion":35},
+        {"wheelSideTransitionZone":0.08,"wheelSideBeamPrecompression":0.99},
+
+        {"wheelReinfBeamSpring":20000,"wheelReinfBeamDamp":185},
+        {"wheelReinfBeamDampCutoffHz":500,"wheelReinfBeamPrecompression":0.985},
+
+        {"wheelTreadBeamSpring":71000,"wheelTreadBeamDamp":80},
+        {"wheelTreadBeamDampCutoffHz":500,"wheelTreadBeamPrecompression":0.985},
+
+        {"wheelTreadReinfBeamSpring":181000,"wheelTreadReinfBeamDamp":55},
+        {"wheelTreadReinfBeamDampCutoffHz":500,"wheelTreadReinfBeamPrecompression":0.985},
+
+        {"wheelPeripheryBeamSpring":41000,"wheelPeripheryBeamDamp":45},
+        {"wheelPeripheryBeamDampCutoffHz":500,"wheelPeripheryBeamPrecompression":0.985},
+
+        {"wheelPeripheryReinfBeamSpring":81000,"wheelPeripheryReinfBeamDamp":35},
+        {"wheelPeripheryReinfBeamDampCutoffHz":500,"wheelPeripheryReinfBeamPrecompression":0.985},
+
+        //general tire values
+        {"nodeWeight":0.16},
+        {"nodeMaterial":"|NM_RUBBER"},
+        {"triangleCollision":false},
+        {"pressurePSI":"$tirepressure_R"},
+        {"dragCoef":5},
+
+        //groundmodel friction multipliers
+        {"frictionCoef":1.0},
+        {"slidingFrictionCoef":1.0},
+        {"treadCoef":0.7},
+
+        //advanced friction values
+        {"noLoadCoef":1.31},
+        {"loadSensitivitySlope":0.00013},
+        {"fullLoadCoef":0.5},
+        {"softnessCoef":0.7},
+
+        //deform values
+        {"wheelSideBeamDeform":22000,"wheelSideBeamStrength":30000},
+        {"wheelTreadBeamDeform":17000,"wheelTreadBeamStrength":22000},
+        {"wheelPeripheryBeamDeform":55000,"wheelPeripheryBeamStrength":55000},
+    ],
+},
+}

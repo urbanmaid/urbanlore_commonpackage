@@ -1,0 +1,29 @@
+{
+  "general_black": {
+    "name": "general_black",
+    "mapTo": "general_black",
+    "class": "Material",
+    "persistentId": "general_black",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "pixelSpecular": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

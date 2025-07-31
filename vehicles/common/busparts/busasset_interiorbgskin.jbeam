@@ -1,0 +1,48 @@
+{
+//bg skin
+    "busasset_skin_city": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"City",
+            "value":180,
+        },
+        "slotType" : "skin_busasset_interior",
+        "skinName" : "",
+    },
+    "busasset_skin_business": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Business",
+            "value":180,
+        },
+        "slotType" : "skin_busasset_interior",
+        "skinName" : "business",
+    },
+    "busasset_skin_charter": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Charter",
+            "value":180,
+        },
+        "slotType" : "skin_busasset_interior",
+        "skinName" : "charter",
+    },
+    "busasset_skin_express_retro": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Express Retro", //D32C3F
+            "value":180,
+        },
+        "slotType" : "skin_busasset_interior",
+        "skinName" : "express_retro",
+    },
+    "busasset_skin_kinder": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Kinder", //D32C3F
+            "value":180,
+        },
+        "slotType" : "skin_busasset_interior",
+        "skinName" : "kinder",
+    },
+}

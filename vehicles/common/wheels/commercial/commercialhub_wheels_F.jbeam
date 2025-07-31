@@ -1,0 +1,191 @@
+{
+"commercialhub_wheel_F_steel_225x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"22.5x10 Commercial Steel Front Wheels",
+        "value":400,
+    },
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //wheels
+         ["steelwheel_12a_22x10", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+         ["steelwheel_12a_22x10", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+     ],
+    "slotType" : "commercialhub_wheel_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["commercialhub_225x10_tire_F","commercialhub_225x10_tire_F", "Front Tires"],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT WHEELS--
+          {"beamSpring":2501000,"beamDamp":100},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamDeform":200000,"beamStrength":"FLT_MAX"},
+          ["fh1r","fh1rr"],
+          ["fh1l","fh1ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+    ],
+    "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"enableTireLbeams":true,"disableMeshBreaking":false,"disableHubMeshBreaking":false},
+
+            //general settings
+            {"hubRadius":0.30},
+            {"wheelOffset":-0.08},
+            {"hubWidth":0.255},
+            {"numRays":20},
+
+            //hub options
+            {"hubTreadBeamSpring":3501000, "hubTreadBeamDamp":100},
+            {"hubPeripheryBeamSpring":3501000, "hubPeripheryBeamDamp":100},
+            {"hubSideBeamSpring":4001000, "hubSideBeamDamp":100},
+            {"hubBeamDeform":110000, "hubBeamStrength":420000},
+            {"hubNodeWeight":1.3},
+            {"hubNodeMaterial":"|NM_METAL","hasTire":false},
+            {"hubFrictionCoef":0.5},
+    ],
+},
+"commercialhub_wheel_F_alu_225x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"22.5x10 Commercial Aluminum Front Wheels",
+        "value":400,
+    },
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //wheels
+         ["steelwheel_06a_22x10", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+         ["steelwheel_06a_22x10", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+     ],
+    "slotType" : "commercialhub_wheel_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["commercialhub_225x10_tire_F","commercialhub_225x10_tire_F", "Front Tires"],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT WHEELS--
+          {"beamSpring":2501000,"beamDamp":100},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamDeform":200000,"beamStrength":"FLT_MAX"},
+          ["fh1r","fh1rr"],
+          ["fh1l","fh1ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+    ],
+    "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"enableTireLbeams":true,"disableMeshBreaking":false,"disableHubMeshBreaking":false},
+
+            //general settings
+            {"hubRadius":0.30},
+            {"wheelOffset":-0.08},
+            {"hubWidth":0.255},
+            {"numRays":20},
+
+            //hub options
+            {"hubTreadBeamSpring":3501000, "hubTreadBeamDamp":100},
+            {"hubPeripheryBeamSpring":3501000, "hubPeripheryBeamDamp":100},
+            {"hubSideBeamSpring":4001000, "hubSideBeamDamp":100},
+            {"hubBeamDeform":110000, "hubBeamStrength":420000},
+            {"hubNodeWeight":1.3},
+            {"hubNodeMaterial":"|NM_METAL","hasTire":false},
+            {"hubFrictionCoef":0.5},
+    ],
+},
+//alloy
+"commalloy_asi_F_225x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"22.5x10 Commercial Asian Alloy Front Wheels",
+        "value":400,
+    },
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //wheels
+        ["commalloy_asi_base_01a_22x10", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["commalloy_asi_base_01a_22x10", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+        //bolts
+        ["commalloy_asi_bolts_01a_22x10", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["commalloy_asi_bolts_01a_22x10", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+     ],
+    "slotType" : "commercialhub_wheel_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["commalloy_shapes_F_225x10","commalloy_shape_8_F_22x10", "Front Sidewall Shape"],
+        ["commalloy_cover_F_225x10","", "Front Sidewall Cover"],
+        ["commercialhub_225x10_tire_F","commercialhub_225x10_tire_F", "Front Tires"],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--FRONT WHEELS--
+          {"beamSpring":2501000,"beamDamp":100},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamDeform":200000,"beamStrength":"FLT_MAX"},
+          ["fh1r","fh1rr"],
+          ["fh1l","fh1ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+    ],
+    "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"enableTireLbeams":true,"disableMeshBreaking":false,"disableHubMeshBreaking":false},
+
+            //general settings
+            {"hubRadius":0.30},
+            {"wheelOffset":-0.08},
+            {"hubWidth":0.255},
+            {"numRays":20},
+
+            //hub options
+            {"hubTreadBeamSpring":3501000, "hubTreadBeamDamp":100},
+            {"hubPeripheryBeamSpring":3501000, "hubPeripheryBeamDamp":100},
+            {"hubSideBeamSpring":4001000, "hubSideBeamDamp":100},
+            {"hubBeamDeform":110000, "hubBeamStrength":420000},
+            {"hubNodeWeight":1.3},
+            {"hubNodeMaterial":"|NM_METAL","hasTire":false},
+            {"hubFrictionCoef":0.5},
+    ],
+},
+"commalloy_shape_6_F_22x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"6 Holed",
+        "value":0,
+    },
+    "slotType" : "commalloy_shapes_F_225x10",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //wheels
+        ["commalloy_asi_6_01a_22x10", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["commalloy_asi_6_01a_22x10", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+     ],
+},
+"commalloy_shape_8_F_22x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"8 Holed",
+        "value":0,
+    },
+    "slotType" : "commalloy_shapes_F_225x10",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //wheels
+        ["commalloy_asi_8_01a_22x10", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["commalloy_asi_8_01a_22x10", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+     ],
+},
+"commalloy_shape_10_F_22x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"10 Holed",
+        "value":0,
+    },
+    "slotType" : "commalloy_shapes_F_225x10",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //wheels
+        ["commalloy_asi_10_01a_22x10", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["commalloy_asi_10_01a_22x10", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+     ],
+},
+}

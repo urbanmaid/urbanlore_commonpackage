@@ -1,0 +1,34 @@
+{
+  "bruckell_floater_01a": {
+    "name": "bruckell_floater_01a",
+    "mapTo": "bruckell_floater_01a",
+    "class": "Material",
+    "persistentId": "bruckell_floater_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "baseColorMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_floater/bruckell_floater_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  }
+}

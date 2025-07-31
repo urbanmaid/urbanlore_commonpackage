@@ -1,0 +1,70 @@
+{
+//start chime
+    "soundscape_startupsound_mute": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"[Mute]",
+            "value":0,
+        },
+        "slotType" : "soundscape_startupsound",
+        "startupBeep": {
+            "startupBeepSample": "art/sound/startchime/vehicles_startchime.ogg"
+            "startupBeepVolume": 0.0,
+        },
+    },
+    "soundscape_startupsound_beep": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Digital Beep",
+            "value":0,
+        },
+        "slotType" : "soundscape_startupsound",
+        "startupBeep": {
+            "startupBeepSample": "art/sound/startchime/vehicles_startchime.ogg"
+        },
+    },
+    "soundscape_startupsound_bell": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Bell Tick",
+            "value":0,
+        },
+        "slotType" : "soundscape_startupsound",
+        "startupBeep": {
+            "startupBeepSample": "art/sound/startchime/vehicles_startchime_bell.ogg"
+        },
+    },
+    "soundscape_startupsound_ibishu_new": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Ibishu 10s Melodic Relay",
+            "value":0,
+        },
+        "slotType" : "soundscape_startupsound",
+        "startupBeep": {
+            "startupBeepSample": "art/sound/startchime/vehicles_startchime_ibishu_new.ogg"
+        },
+    },
+    "soundscape_startupsound_rayton_new": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Rayton 10s Beep",
+            "value":0,
+        },
+        "slotType" : "soundscape_startupsound",
+        "startupBeep": {
+            "startupBeepSample": "art/sound/startchime/vehicles_startchime_rayton_new.ogg"
+        },
+    },
+    "soundscape_startupsound_rayton_old": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Rayton 00s Beep",
+            "value":0,
+        },
+        "slotType" : "soundscape_startupsound",
+        "startupBeep": {
+            "startupBeepSample": "art/sound/startchime/vehicles_startchime_rayton_old.ogg"
+        },
+    },
+}

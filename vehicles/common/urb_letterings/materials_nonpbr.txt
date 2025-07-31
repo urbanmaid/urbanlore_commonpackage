@@ -1,0 +1,28 @@
+  "brandlogo" : {
+    "name" : "brandlogo",
+    "class" : "Material",
+    "persistentId" : "brandlogo",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/urb_letterings/brandlogo_d.dds",
+        "normalMap" : "vehicles/common/urb_letterings/brandlogo_n.dds",
+        "pixelSpecular" : true,
+        "reflectivityMap" : "vehicles/common/urb_letterings/brandlogo_s.dds",
+        "specularMap" : "vehicles/common/urb_letterings/brandlogo_s.dds",
+        "specularPower" : 128,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "castShadows" : false,
+    "dynamicCubemap" : true,
+    "mapTo" : "brandlogo",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "materialTag2" : "decal",
+    "translucent" : false
+  },

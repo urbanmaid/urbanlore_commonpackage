@@ -1,0 +1,48 @@
+{
+	//tv screen content settings
+	"busasset_tvcont_dvdloading":{
+		"information":{
+			"authors":"Urbanmaid",
+			"name":"DVD Loading",
+		},
+		"slotType":"busasset_tvcont",
+		"glowMap":{
+			"busasset_tv_screen":{"simpleFunction":{"running":1}, "off":"busasset_tv_screen", "on":"busasset_tv_screen_dvdloading", "on_intense":"busasset_tv_screen_dvdloading"},
+		},
+        "controller": [
+            ["fileName"],
+            ["gauges/genericGauges", {"name":"dvdloading", }],
+        ],
+        "dvdloading": {
+            "configuration": {
+                "materialName": "@busasset_dvdloading_screen"
+                "htmlPath": "local://local/vehicles/common/busparts/html/busasset_dvdloading_screen.html"
+                "displayWidth":512
+                "displayHeight":288
+            },
+            "displayData": {
+                "electrics": [
+                "fuel",
+                "watertemp",
+                "wheelspeed",
+                "odometer",
+                "trip"
+                ]
+            },
+        },
+	},
+	"busasset_tvcont_navi":{
+		"information":{
+			"authors":"Urbanmaid",
+			"name":"BeamNavigator Input",
+		},
+		"slotType":"busasset_tvcont",
+		"glowMap":{
+            "busasset_tv_screen":{"simpleFunction":{"ignitionLevel":0.5}, "off":"screen_off","on":"beamnav_naviscreen_accessory", "on_intense":"screen_gps"},
+		},
+        "controller": [
+            ["fileName"],
+            ["beamNavigator"],
+        ],
+	},
+}

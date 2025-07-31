@@ -1,0 +1,21 @@
+{
+	//tv screen content settings
+    "busasset_sticker_en": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"English 90s Skin",
+            "value":180,
+        },
+        "slotType" : "skin_busstickers",
+        "skinName" : "",
+    },
+    "busasset_sticker_kr": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"Korean 90s Skin",
+            "value":180,
+        },
+        "slotType" : "skin_busstickers",
+        "skinName" : "ko_kr",
+    },
+}

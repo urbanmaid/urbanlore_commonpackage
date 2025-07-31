@@ -1,0 +1,133 @@
+{
+  "utility_lights" : {
+    "name" : "utility_lights",
+    "mapTo": "utility_lights",
+    "class" : "Material",
+    "persistentId": "utility_lights",
+    "Stages" : [
+      {
+        "baseColorMap": "/vehicles/common/utility_lights_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/utility_lights_m.data.png",
+        "normalMap": "vehicles/common/utility_lights_n.normal.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/utility_lights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "utility_lights_dmg" : {
+    "name" : "utility_lights_dmg",
+    "mapTo": "utility_lights_dmg",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "baseColorMap": "/vehicles/common/utility_lights_dmg_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/utility_lights_dmg_m.data.png",
+        "normalMap": "vehicles/common/utility_lights_dmg_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/utility_lights_dmg_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "utility_lights_on": {
+    "name": "utility_lights_on",
+    "mapTo": "utility_lights_on",
+    "class": "Material",
+    "persistentId": "619dc780-5287-4d3c-a5a8-785689729bb9",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/utility_lights_b.color.png",
+        "emissive": true,
+        "emissiveFactor": [
+          3.85,
+          3.85,
+          3.85
+        ],
+        "emissiveMap": "/vehicles/common/utility_lights_g.color.png",
+        "glow": true,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/utility_lights_m.data.png",
+        "normalMap": "vehicles/common/utility_lights_n.normal.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/utility_lights_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "emissiveMap": "/vehicles/common/utility_lights_g.color.png",
+        "glow": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "utility_lights_on_intense": {
+    "name": "utility_lights_on_intense",
+    "mapTo": "utility_lights_on_intense",
+    "class": "Material",
+    "persistentId": "92085ef7-9919-4a47-8142-a7f5ce2dd135",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/utility_lights_b.color.png",
+        "emissive": true,
+        "emissiveFactor": [
+          7.45,
+          7.45,
+          7.45
+        ],
+        "emissiveMap": "/vehicles/common/utility_lights_g.color.png",
+        "glow": true,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/utility_lights_m.data.png",
+        "normalMap": "vehicles/common/utility_lights_n.normal.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/utility_lights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "glow": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

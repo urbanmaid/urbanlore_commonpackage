@@ -1,0 +1,19 @@
+{
+    "header" : {
+        "version" : 1
+    },
+    "eventName" : "event:>Engine>default",
+    "samples" : 
+    [
+        [
+            ["art/sound/engine/dsup_v6/su26de_ex_low.ogg", 3000],
+            ["art/sound/engine/dsup_v6/su26de_ex_mid.ogg", 4500],
+            ["art/sound/engine/dsup_v6/su26de_ex_high.ogg", 7000]
+        ],
+        [
+            ["art/sound/engine/dsup_v6/su26de_ex_low.ogg", 3000],
+            ["art/sound/engine/dsup_v6/su26de_ex_mid.ogg", 4500],
+            ["art/sound/engine/dsup_v6/su26de_ex_high.ogg", 7000]
+        ]
+    ]
+}

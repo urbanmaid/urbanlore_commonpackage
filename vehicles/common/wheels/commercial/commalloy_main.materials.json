@@ -1,0 +1,105 @@
+{
+  "commalloy_asi_01a": {
+    "name": "commalloy_asi_01a",
+    "mapTo": "commalloy_asi_01a",
+    "class": "Material",
+    "persistentId": "commalloy_asi_01a",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/commercial/commalloy_asi_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/commercial/commalloy_asi_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/commercial/commalloy_asi_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/commercial/commalloy_asi_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/commercial/commalloy_asi_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "wheelcover_shade": {
+    "name": "wheelcover_shade",
+    "mapTo": "wheelcover_shade",
+    "class": "Material",
+    "persistentId": "wheelcover_shade",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/commercial/wheelcover_shade_b.color.png",
+        "opacityMap": "/vehicles/common/wheels/commercial/wheelcover_shade_o.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "version": 1.5
+  },
+  "wheelcover_daewon_01a": {
+    "name": "wheelcover_daewon_01a",
+    "mapTo": "wheelcover_daewon_01a",
+    "class": "Material",
+    "persistentId": "wheelcover_daewon_01a",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "wheelcover_daewon_02a": {
+    "name": "wheelcover_daewon_02a",
+    "mapTo": "wheelcover_daewon_02a",
+    "class": "Material",
+    "persistentId": "wheelcover_daewon_02a",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_02a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_02a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_02a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_02a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/commercial/wheelcover_daewon_02a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  }
+}

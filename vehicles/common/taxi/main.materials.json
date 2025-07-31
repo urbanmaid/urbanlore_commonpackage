@@ -1,0 +1,194 @@
+{
+  "taxiupfits_general_small_01a": {
+    "name": "taxiupfits_general_small_01a",
+    "mapTo": "taxiupfits_general_small_01a",
+    "class": "Material",
+    "persistentId": "79e756db-c398-4edb-960e-2de30d496cbf",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_b.color.png",
+        "metallicMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_m.data.png",
+        "normalMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "taxiupfits_general_small_01a_on": {
+    "name": "taxiupfits_general_small_01a_on",
+    "mapTo": "taxiupfits_general_small_01a_on",
+    "class": "Material",
+    "persistentId": "619dc780-5287-4d3c-a5a8-785689729bb9",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_b.color.png",
+        "emissive": true,
+        "emissiveFactor": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "emissiveMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_g.color.png",
+        "glow": true,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_m.data.png",
+        "normalMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_n.normal.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "taxiupfits_general_small_01a_yellow": {
+    "name": "taxiupfits_general_small_01a_yellow",
+    "mapTo": "taxiupfits_general_small_01a_yellow",
+    "class": "Material",
+    "persistentId": "79e756db-c398-4edb-960e-2de30d496cbf",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_b.color.png",
+        "baseColorFactor": [
+          0.88,
+          0.62,
+          0.0,
+          1
+        ],
+        "metallicMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_m.data.png",
+        "normalMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "taxiupfits_general_small_01a_on_yellow": {
+    "name": "taxiupfits_general_small_01a_on_yellow",
+    "mapTo": "taxiupfits_general_small_01a_on_yellow",
+    "class": "Material",
+    "persistentId": "619dc780-5287-4d3c-a5a8-785689729bb9",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_b.color.png",
+        "baseColorFactor": [
+          0.88,
+          0.62,
+          0.0,
+          1
+        ],
+        "emissive": true,
+        "emissiveFactor": [
+          0.88,
+          0.62,
+          0.0
+        ],
+        "emissiveMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_g.color.png",
+        "glow": true,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_m.data.png",
+        "normalMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_n.normal.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "taxiupfits_general_small_01a_green": {
+    "name": "taxiupfits_general_small_01a_green",
+    "mapTo": "taxiupfits_general_small_01a_green",
+    "class": "Material",
+    "persistentId": "79e756db-c398-4edb-960e-2de30d496cbf",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_b.color.png",
+        "baseColorFactor": [
+          0.08,
+          0.87,
+          0.13,
+          1
+        ],
+        "metallicMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_m.data.png",
+        "normalMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "taxiupfits_general_small_01a_on_green": {
+    "name": "taxiupfits_general_small_01a_on_green",
+    "mapTo": "taxiupfits_general_small_01a_on_green",
+    "class": "Material",
+    "persistentId": "619dc780-5287-4d3c-a5a8-785689729bb9",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_b.color.png",
+        "baseColorFactor": [
+          0.08,
+          0.87,
+          0.13,
+          1
+        ],
+        "emissive": true,
+        "emissiveFactor": [
+          0.08,
+          0.87,
+          0.13
+        ],
+        "emissiveMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_g.color.png",
+        "glow": true,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_m.data.png",
+        "normalMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_n.normal.dds",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/taxi/taxiupfits_general_small_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

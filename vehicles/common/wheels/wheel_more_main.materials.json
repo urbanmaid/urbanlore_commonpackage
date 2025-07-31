@@ -1,0 +1,249 @@
+{
+  "ibishu_wheel_12b": {
+    "name": "ibishu_wheel_12b",
+    "mapTo": "ibishu_wheel_12b",
+    "class": "Material",
+    "persistentId": "027a9c1f-12d8-4136-8358-eea60009ddc2",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/ibishu_wheel_12a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/ibishu_wheel_12a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/ibishu_wheel_12b_m.data.png",
+        "normalMap": "vehicles/common/wheels/ibishu_wheel_12a_nm.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/ibishu_wheel_12a_r.data.DDS"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "ibishu_wheel_5plate" : {
+    "name" : "ibishu_wheel_5plate",
+    "mapTo" : "ibishu_wheel_5plate",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_5plate_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_5plate_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_5plate_m.data.png",
+        "normalMap": "vehicles/common/wheels/ibishu_extension/ibishu_wheel_5plate_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_5plate_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "ibishu_wheel_7windmill" : {
+    "name" : "ibishu_wheel_7windmill",
+    "mapTo" : "ibishu_wheel_7windmill",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_7windmill_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_7windmill_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_7windmill_m.data.png",
+        "normalMap": "vehicles/common/wheels/ibishu_extension/ibishu_wheel_7windmill_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_7windmill_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "ibishu_wheel_8carrige" : {
+    "name" : "ibishu_wheel_8carrige",
+    "mapTo" : "ibishu_wheel_8carrige",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8carrige_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8carrige_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8carrige_m.data.png",
+        "normalMap": "vehicles/common/wheels/ibishu_extension/ibishu_wheel_8carrige_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8carrige_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "ibishu_wheel_8shield" : {
+    "name" : "ibishu_wheel_8shield",
+    "mapTo" : "ibishu_wheel_8shield",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8shield_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8shield_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8shield_m.data.png",
+        "normalMap": "vehicles/common/wheels/ibishu_extension/ibishu_wheel_8shield_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_8shield_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "ibishu_wheel_10fork" : {
+    "name" : "ibishu_wheel_10fork",
+    "mapTo" : "ibishu_wheel_10fork",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_10fork_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_10fork_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_10fork_m.data.png",
+        "normalMap": "vehicles/common/wheels/ibishu_extension/ibishu_wheel_10fork_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_10fork_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "ibishu_wheel_16castle" : {
+    "name" : "ibishu_wheel_16castle",
+    "mapTo" : "ibishu_wheel_16castle",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_16castle_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_16castle_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_16castle_m.data.png",
+        "normalMap": "vehicles/common/wheels/ibishu_extension/ibishu_wheel_16castle_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/ibishu_extension/ibishu_wheel_16castle_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "wheel_42d": {
+    "name": "wheel_42d",
+    "mapTo": "wheel_42d",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/common/wheels/wheel_42d_ao.data.png",
+        "baseColorMap": "vehicles/common/wheels/wheel_42d_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "instanceDiffuse": true,
+        "useAnisotropic": true,
+        "colorPaletteMapUseUV": 1,
+        "clearCoatFactor": 1,
+        "opacityMap": "/vehicles/common/wheels/wheel_42d_c.data.png",
+        "roughnessFactor": 1,
+        "clearCoatMap": "vehicles/common/wheels/wheel_42d_cc.data.png",
+        "normalMap": "vehicles/common/wheels/wheel_42d_nm.normal.png",
+        "colorPaletteMap": "vehicles/common/urb_materials/urb_main_t.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "wheel_21a_ibishu": {
+    "name": "wheel_21a_ibishu",
+    "mapTo": "wheel_21a_ibishu",
+    "class": "Material",
+    "persistentId": "50b44bc4-e3f1-4880-b003-1bebc69ef19b",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/wheel_21a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/wheel_21ai_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/wheel_21a_m.data.png",
+        "normalMap": "vehicles/common/wheels/wheel_21ai_n.dds",
+        "roughnessMap": "/vehicles/common/wheels/wheel_21a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "wheel_21b_ibishu": {
+    "name": "wheel_21b_ibishu",
+    "mapTo": "wheel_21b_ibishu",
+    "class": "Material",
+    "persistentId": "50b44bc4-e3f1-4880-b003-1bebc69ef19b",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/wheel_21a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/wheel_21bi_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/wheel_21b_m.data.png",
+        "normalMap": "vehicles/common/wheels/wheel_21ai_n.dds",
+        "roughnessMap": "/vehicles/common/wheels/wheel_21b_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  }
+}

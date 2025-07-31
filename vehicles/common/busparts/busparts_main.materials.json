@@ -1,0 +1,553 @@
+{
+  "airconditioner_bus_rexam": {
+    "name": "airconditioner_bus_rexam",
+    "mapTo": "airconditioner_bus_rexam",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/airconditioner_bus_rexam_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/airconditioner_bus_rexam_m.data.png",
+        "normalMap": "/vehicles/common/busparts/airconditioner_bus_rexam_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/airconditioner_bus_rexam_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 10055,
+    "version": 1.5
+  },
+
+  "busasset_destsign_ext_01a": {
+    "name": "busasset_destsign_ext_01a",
+    "mapTo": "busasset_destsign_ext_01a",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_destsign_ext_01a_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busasset_destsign_ext_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_destsign_ext_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busasset_destsign_ext_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+  "busasset_doormotor_01a": {
+    "name": "busasset_doormotor_01a",
+    "mapTo": "busasset_doormotor_01a",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_doormotor_01a_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busasset_doormotor_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_doormotor_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busasset_doormotor_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+  "busasset_fridge_01a": {
+    "name": "busasset_fridge_01a",
+    "mapTo": "busasset_fridge_01a",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_fridge_01a_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busasset_fridge_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_fridge_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busasset_fridge_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+  "busasset_payment_01a": {
+    "name": "busasset_payment_01a",
+    "mapTo": "busasset_payment_01a",
+    "class": "Material",
+    "persistentId": "busasset_payment_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/busparts/busasset_payment_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/busparts/busasset_payment_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_payment_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/busparts/busasset_payment_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "baseColorMap": "/vehicles/common/busparts/busasset_payment_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/busparts/busasset_payment_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_payment_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/busparts/busasset_payment_01a_r.data.png",
+        "useAnisotropic": true,
+        "emissive": true,
+        "emissiveMap": "/vehicles/common/busparts/busasset_payment_01a_g.color.png",
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ]
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "busasset_payment_cash_01a": {
+    "name": "busasset_payment_cash_01a",
+    "mapTo": "busasset_payment_cash_01a",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_payment_cash_01a_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busasset_payment_cash_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_payment_cash_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busasset_payment_cash_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+  "busasset_stopbell_01a": {
+    "name": "busasset_stopbell_01a",
+    "mapTo": "busasset_stopbell_01a",
+    "class": "Material",
+    "persistentId": "busasset_stopbell_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/busparts/busasset_stopbell_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/busparts/busasset_stopbell_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_stopbell_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/busparts/busasset_stopbell_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "busasset_stopbell_01a_on": {
+    "name": "busasset_stopbell_01a_on",
+    "mapTo": "busasset_stopbell_01a_on",
+    "class": "Material",
+    "persistentId": "busasset_stopbell_01a_on",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/busparts/busasset_stopbell_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/busparts/busasset_stopbell_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_stopbell_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/busparts/busasset_stopbell_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "baseColorMap": "/vehicles/common/busparts/busasset_stopbell_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/busparts/busasset_stopbell_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_stopbell_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/busparts/busasset_stopbell_01a_r.data.png",
+        "useAnisotropic": true,
+        "emissive": true,
+        "emissiveMap": "/vehicles/common/busparts/busasset_stopbell_01a_g.color.png",
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ]
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "busasset_tv_01a": {
+    "name": "busasset_tv_01a",
+    "mapTo": "busasset_tv_01a",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_tv_01a_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busasset_tv_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busasset_tv_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busasset_tv_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+
+  "busseat_express_01a": {
+    "name": "busseat_express_01a",
+    "mapTo": "busseat_express_01a",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busseat_express_01a_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busseat_express_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busseat_express_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busseat_express_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 10055,
+    "version": 1.5
+  },
+  "busseat_express_01a.skin_busasset_interior.business": {
+    "name": "busseat_express_01a.skin_busasset_interior.business",
+    "mapTo": "busseat_express_01a.skin_busasset_interior.business",
+    "class": "Material",
+    "persistentId": "busseat_express_01a.skin_busasset_interior.business",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busseat_express_01a_business_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busseat_express_01a_fabric_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busseat_express_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busseat_express_01a_fabric_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 10055,
+    "version": 1.5
+  },
+  "busseat_express_01a.skin_busasset_interior.charter": {
+    "name": "busseat_express_01a.skin_busasset_interior.charter",
+    "mapTo": "busseat_express_01a.skin_busasset_interior.charter",
+    "class": "Material",
+    "persistentId": "busseat_express_01a.skin_busasset_interior.charter",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busseat_express_01a_charter_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busseat_express_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busseat_express_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busseat_express_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 10055,
+    "version": 1.5
+  },
+  "busseat_express_01a.skin_busasset_interior.express_retro": {
+    "name": "busseat_express_01a.skin_busasset_interior.express_retro",
+    "mapTo": "busseat_express_01a.skin_busasset_interior.express_retro",
+    "class": "Material",
+    "persistentId": "busseat_express_01a.skin_busasset_interior.express_retro",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busseat_express_01a_exretro_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busseat_express_01a_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busseat_express_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busseat_express_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 10055,
+    "version": 1.5
+  },
+  "busseat_express_01a.skin_busasset_interior.kinder": {
+    "name": "busseat_express_01a.skin_busasset_interior.kinder",
+    "mapTo": "busseat_express_01a.skin_busasset_interior.kinder",
+    "class": "Material",
+    "persistentId": "busseat_express_01a.skin_busasset_interior.kinder",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busseat_express_01a_kinder_b.color.png",
+        "metallicMap": "/vehicles/common/busparts/busseat_express_01a_fabric_m.data.png",
+        "normalMap": "/vehicles/common/busparts/busseat_express_01a_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/common/busparts/busseat_express_01a_fabric_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 10055,
+    "version": 1.5
+  },
+
+  "busasset_sticker_warn_01a": {
+    "name": "busasset_sticker_warn_01a",
+    "mapTo": "busasset_sticker_warn_01a",
+    "class": "Material",
+    "persistentId": "busasset_sticker_warn_01a",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_sticker_warn_01a_en_b.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+  "busasset_sticker_warn_01a.skin_busstickers.ko_kr": {
+    "name": "busasset_sticker_warn_01a.skin_busstickers.ko_kr",
+    "mapTo": "busasset_sticker_warn_01a.skin_busstickers.ko_kr",
+    "class": "Material",
+    "persistentId": "busasset_sticker_warn_01a.skin_busstickers.ko_kr",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_sticker_warn_01a_kr_b.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+  "busasset_sticker_serviceinfo_01a": {
+    "name": "busasset_sticker_serviceinfo_01a",
+    "mapTo": "busasset_sticker_serviceinfo_01a",
+    "class": "Material",
+    "persistentId": "busasset_sticker_serviceinfo_01a",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_sticker_serviceinfo_01a_en_b.color.png",
+        "emissive": true,
+        "emissiveFactor": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "emissiveMap": "vehicles/common/busparts/busasset_sticker_serviceinfo_01a_en_b.color.png",
+        "opacityMap": "vehicles/common/busparts/busasset_sticker_serviceinfo_01a_en_o.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 127,
+    "alphaTest": true,
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "busasset_sticker_serviceinfo_01a.skin_busstickers.ko_kr": {
+    "name": "busasset_sticker_serviceinfo_01a.skin_busstickers.ko_kr",
+    "mapTo": "busasset_sticker_serviceinfo_01a.skin_busstickers.ko_kr",
+    "class": "Material",
+    "persistentId": "busasset_sticker_serviceinfo_01a.skin_busstickers.ko_kr",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/busasset_sticker_serviceinfo_01a_kr_b.color.png",
+        "emissive": true,
+        "emissiveFactor": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "emissiveMap": "vehicles/common/busparts/busasset_sticker_serviceinfo_01a_kr_b.color.png",
+        "opacityMap": "vehicles/common/busparts/busasset_sticker_serviceinfo_01a_kr_o.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "alphaRef": 127,
+    "alphaTest": true,
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+
+  "busasset_inspectionreqscreen": {
+    "name": "busasset_inspectionreqscreen",
+    "mapTo": "busasset_inspectionreqscreen",
+    "class": "Material",
+    "persistentId": "busasset_inspectionreqscreen",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/inspectionreqscreen/busasset_inspectionreqscreen_intro_en.png",
+        "emissive" : true,
+        "emissiveFactor": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+  "busasset_inspectionreqscreen.skin_busstickers.ko_kr": {
+    "name": "busasset_inspectionreqscreen.skin_busstickers.ko_kr",
+    "mapTo": "busasset_inspectionreqscreen.skin_busstickers.ko_kr",
+    "class": "Material",
+    "persistentId": "busasset_inspectionreqscreen.skin_busstickers.ko_kr",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/busparts/inspectionreqscreen/busasset_inspectionreqscreen_intro_kr.png",
+        "emissive" : true,
+        "emissiveFactor": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 1,
+    "castShadows": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 15508,
+    "version": 1.5
+  },
+}

@@ -1,0 +1,66 @@
+{
+"commalloy_wheelcover_daewon_01a_F_22x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Daewon Universal Front Wheel Cover",
+        "value":0,
+    },
+    "slotType" : "commalloy_cover_F_225x10",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //wheels
+        ["wheelcover_daewon_01a", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_daewon_01a", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"commalloy_wheelcover_daewon_01a_R_22x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Daewon Universal Rear Wheel Cover",
+        "value":0,
+    },
+    "slotType" : "commalloy_cover_R_225x10",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //outer
+        ["wheelcover_daewon_01a_outer", ["wheel_RR1","wheelhub_RR1"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_daewon_01a_outer", ["wheel_RL1","wheelhub_RL1"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade_outer", ["wheel_RR1","wheelhub_RR1"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade_outer", ["wheel_RL1","wheelhub_RL1"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"commalloy_wheelcover_daewon_02a_F_22x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Daewon Retro Front Wheel Cover",
+        "value":0,
+    },
+    "slotType" : "commalloy_cover_F_225x10",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //wheels
+        ["wheelcover_daewon_02a", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_daewon_02a", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"commalloy_wheelcover_daewon_02a_R_22x10": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Daewon Retro Rear Wheel Cover",
+        "value":0,
+    },
+    "slotType" : "commalloy_cover_R_225x10",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //outer
+        ["wheelcover_daewon_02a_outer", ["wheel_RR1","wheelhub_RR1"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_daewon_02a_outer", ["wheel_RL1","wheelhub_RL1"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade_outer", ["wheel_RR1","wheelhub_RR1"], [], {"pos":{"x":-1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+        ["wheelcover_shade_outer", ["wheel_RL1","wheelhub_RL1"], [], {"pos":{"x": 1.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+}

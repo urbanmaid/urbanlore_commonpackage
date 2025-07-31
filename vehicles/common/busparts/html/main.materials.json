@@ -1,0 +1,50 @@
+{
+  "busasset_tv_screen": {
+    "name": "busasset_tv_screen",
+    "mapTo": "busasset_tv_screen",
+    "class": "Material",
+    "persistentId": "7990d03f-588f-4620-b131-b3c878e9b445",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "busasset_tv_screen_dvdloading": {
+    "name": "busasset_tv_screen_dvdloading",
+    "mapTo": "busasset_tv_screen_dvdloading",
+    "class": "Material",
+    "persistentId": "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "colorMap": "@busasset_dvdloading_screen",
+        "emissive": true,
+        "specularMap": "vehicles/common/null.dds",
+        "specularPower": 32,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None"
+  }
+}

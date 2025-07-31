@@ -1,0 +1,417 @@
+{
+//UTR Voltaire Series, Colorable
+    "wheel_42d_22x9_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"22x9.5 UTR Voltaire Front Wheels (Colorable)",
+            "value":900,
+        },
+        "slotType" : "wheel_F_5",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_22x9","tire_F_245_30_22_sport", "Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["wheel_42d_22x9", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["wheel_42d_22x9", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //front wheels
+            {"nodeWeight":5.75},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //front wheel
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.2967},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":20},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":20},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":20},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+    "wheel_42d_24x9_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"24x9.5 UTR Voltaire Front Wheels (Colorable)",
+            "value":1000,
+        },
+        "slotType" : "wheel_F_5",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_24x9","tire_F_255_25_24_sport", "Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["wheel_42d_24x9", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["wheel_42d_24x9", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //front wheels
+            {"nodeWeight":6.0},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //front wheel
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.3221},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":22},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":22},
+            {"hubSideBeamSpring":2201000 "hubSideBeamDamp":22},
+            {"hubNodeWeight":0.685},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+    "wheel_42d_26x9_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"26x9.5 UTR Voltaire Front Wheels (Colorable)",
+            "value":1100,
+        },
+        "slotType" : "wheel_F_5",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_26x9","tire_F_255_30_26_sport", "Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["wheel_42d_26x9", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["wheel_42d_26x9", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //front wheels
+            {"nodeWeight":6.0},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //front wheel
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.342},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":20},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":20},
+            {"hubSideBeamSpring":2201000, "hubSideBeamDamp":20},
+            {"hubNodeWeight":0.75},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+    "wheel_42d_22x9_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"22x9.5 UTR Voltaire Rear Wheels (Colorable)",
+            "value":900,
+        },
+        "slotType" : "wheel_R_5",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_22x9","tire_R_245_30_22_sport", "Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["wheel_42d_22x9", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["wheel_42d_22x9", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //rear wheels
+            {"nodeWeight":5.75},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.33, 0, 0],
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.60, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.33, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.60, 0, 0],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //rear wheel
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.2967},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":20},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":20},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":20},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+    "wheel_42d_24x9_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"24x9.5 UTR Voltaire Rear Wheels (Colorable)",
+            "value":1000,
+        },
+        "slotType" : "wheel_R_5",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_24x9","tire_R_255_25_24_sport", "Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["wheel_42d_24x9", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["wheel_42d_24x9", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //rear wheels
+            {"nodeWeight":6.0},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.33, 0, 0],
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.60, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.33, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.60, 0, 0],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //rear wheel
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.3221},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":22},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":22},
+            {"hubSideBeamSpring":2201000, "hubSideBeamDamp":22},
+            {"hubNodeWeight":0.685},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+    "wheel_42d_26x9_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"26x9.5 UTR Voltaire Rear Wheels (Colorable)",
+            "value":1100,
+        },
+        "slotType" : "wheel_R_5",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_26x9","tire_R_255_30_26_sport", "Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["wheel_42d_26x9", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["wheel_42d_26x9", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //rear wheels
+            {"nodeWeight":6.0},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.33, 0, 0],
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.60, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.33, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.60, 0, 0],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //rear wheel
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.342},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":20},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":20},
+            {"hubSideBeamSpring":2201000, "hubSideBeamDamp":20},
+            {"hubNodeWeight":0.75},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+}

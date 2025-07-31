@@ -1,0 +1,11 @@
+{
+    "license_plate_milenium_inverted_2_1": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Milenium Inverted Plate Design",
+        "value":50,
+    },
+    "slotType" : "licenseplate_design_2_1",
+    "licenseplate_path" : "vehicles/common/licenseplates/milenium_inverted/licenseplate-milenium_inverted.json",
+    },
+}

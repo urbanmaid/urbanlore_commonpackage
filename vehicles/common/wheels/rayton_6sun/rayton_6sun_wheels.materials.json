@@ -1,0 +1,33 @@
+{
+  "rayton_6sun_01a" : {
+    "name" : "rayton_6sun_01a",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/null.dds",
+        "normalMap" : "vehicles/common/wheels/rayton_6sun/rayton_6sun_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/null.dds",
+        "specularPower" : 64,
+        "useAnisotropic" : true
+      },
+      {
+        "colorMap" : "vehicles/common/wheels/rayton_6sun/rayton_6sun_01a_d.dds",
+        "normalMap" : "vehicles/common/wheels/rayton_6sun/rayton_6sun_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/wheels/rayton_6sun/rayton_6sun_01a_s.dds",
+        "specularPower" : 64,
+        "useAnisotropic" : true
+      },
+      {},
+      {}
+    ],
+    "alphaRef" : 0,
+    "dynamicCubemap" : true,
+    "mapTo" : "rayton_6sun_01a",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true,
+    "translucentBlendOp" : "None"
+  }
+}

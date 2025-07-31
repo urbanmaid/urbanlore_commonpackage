@@ -1,0 +1,64 @@
+{
+  "daewon_dx8_01a" : {
+    "name" : "daewon_dx8_01a",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/null.dds",
+        "normalMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/null.dds",
+        "specularPower" : 64,
+        "useAnisotropic" : true
+      },
+      {
+        "colorMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01a_d.dds",
+        "normalMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01a_s.dds",
+        "specularPower" : 64,
+        "useAnisotropic" : true
+      },
+      {},
+      {}
+    ],
+    "alphaRef" : 0,
+    "dynamicCubemap" : true,
+    "mapTo" : "daewon_dx8_01a",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true,
+    "translucentBlendOp" : "None"
+  },
+  "daewon_dx8_01b" : {
+    "name" : "daewon_dx8_01b",
+    "class" : "Material",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/null.dds",
+        "normalMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01b_s.dds",
+        "specularPower" : 128,
+        "useAnisotropic" : true
+      },
+      {
+        "colorMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01b_d.dds",
+        "normalMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01a_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/wheels/daewon_dx8/daewon_dx8_01b_s.dds",
+        "specularPower" : 128,
+        "useAnisotropic" : true
+      },
+      {},
+      {}
+    ],
+    "alphaRef" : 0,
+    "dynamicCubemap" : true,
+    "mapTo" : "daewon_dx8_01b",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true,
+    "translucentBlendOp" : "None"
+  }
+}

@@ -1,0 +1,465 @@
+{
+/*
+BeamNG Devs they need to unite the whole wheel offset into one location not to make a distinct jbeam object of wheel attachments
+*/
+
+//front 7 in
+    "bruckell_floater_logo_7_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_7_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_7_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_7_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+//Rear 7 in
+    "bruckell_floater_logo_7_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_7_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_7_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_7_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_7_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.0, "y":1.0, "z":1.0}}],
+        ],
+    },
+
+//front 8 in 16in rim only
+    "bruckell_floater_logo_16x8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_16x8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_16x8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_16x8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+//rear 8 in 16in rim only
+    "bruckell_floater_logo_16x8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_16x8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_16x8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_16x8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_16x8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.48, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+
+//front 8 in
+    "bruckell_floater_logo_8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_8_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+//Rear 8 in
+    "bruckell_floater_logo_8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_8_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_8_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.152, "y":1.0, "z":1.0}}],
+        ],
+    },
+
+//front 9 in
+    "bruckell_floater_logo_9_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_9_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_9_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_9_F": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_F",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+//Rear 9 in
+    "bruckell_floater_logo_9_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Outlined Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_logo_w_9_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"White Old Logo Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_logo_w", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_logo_w", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_old_9_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Old Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_old", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_old", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+    "bruckell_floater_lettering_modern_9_R": {
+        "information":{
+            "authors":"Urbanmaid",
+            "name":"Modern Lettring Type",
+            "value":0,
+        },
+        "slotType" : "bruckell_floater_lettering_9_R",
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["bruckell_floater_lettering_modern", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+            ["bruckell_floater_lettering_modern", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.5, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.206, "y":1.0, "z":1.0}}],
+        ],
+    },
+}

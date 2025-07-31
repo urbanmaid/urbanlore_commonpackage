@@ -1,0 +1,27 @@
+{
+  "white_steelie_01a": {
+    "name": "white_steelie_01a",
+    "mapTo": "white_steelie_01a",
+    "class": "Material",
+    "persistentId": "white_steelie_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_m.data.png",
+        "normalMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  }
+}

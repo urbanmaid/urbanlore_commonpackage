@@ -1,0 +1,21 @@
+{
+    "header" : {
+        "version" : 1
+    },
+    "eventName" : "event:>Engine>default",
+    "samples" : 
+    [
+        [
+            ["art/sound/engine/dsup_v6/su26de_idle1.ogg", 1100],
+            ["art/sound/engine/dsup_v6/su26de_low1.ogg", 4500],
+            ["art/sound/engine/dsup_v6/su26de_mid1.ogg", 7000],
+            ["art/sound/engine/dsup_v6/su26de_high1.ogg", 9000]
+        ],
+        [
+            ["art/sound/engine/dsup_v6/su26de_idle1.ogg", 1100],
+            ["art/sound/engine/dsup_v6/su26de_low1.ogg", 4500],
+            ["art/sound/engine/dsup_v6/su26de_mid1.ogg", 7000],
+            ["art/sound/engine/dsup_v6/su26de_high1.ogg", 9000]
+        ]
+    ]
+}

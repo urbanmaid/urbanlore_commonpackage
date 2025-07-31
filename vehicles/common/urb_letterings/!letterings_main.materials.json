@@ -1,0 +1,259 @@
+{
+  "arialblack_lettering" : {
+    "name" : "arialblack_lettering",
+    "mapTo": "arialblack_lettering",
+    "class" : "Material",
+    "persistentId" : "arialblack_lettering",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/urb_letterings/arialblack_lettering_o.data.png",
+        "baseColorMap": "/vehicles/common/urb_letterings/arialblack_lettering_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/urb_letterings/arialblack_lettering_m.data.png",
+        "normalMap" : "vehicles/common/urb_letterings/arialblack_lettering_nm.normal.dds",
+        "opacityMap": "/vehicles/common/urb_letterings/arialblack_lettering_o.data.png",
+        "roughnessMap": "/vehicles/common/urb_letterings/arialblack_lettering_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 80,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  
+  "mnsoftgothic_lettering" : {
+    "name" : "mnsoftgothic_lettering",
+    "class" : "Material",
+    "persistentId" : "mnsoftgothic_lettering",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/urb_letterings/mnsoftgothic_lettering_d.dds",
+        "normalMap" : "vehicles/common/urb_letterings/mnsoftgothic_lettering_n.dds",
+        "pixelSpecular" : true,
+        "reflectivityMap" : "vehicles/common/urb_letterings/mnsoftgothic_lettering_s.dds",
+        "specularMap" : "vehicles/common/urb_letterings/mnsoftgothic_lettering_s.dds",
+        "specularPower" : 128,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "castShadows" : false,
+    "dynamicCubemap" : true,
+    "mapTo" : "mnsoftgothic_lettering",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "materialTag2" : "decal",
+    "translucent" : false
+  },
+  "mosquito_formalstd_lettering" : {
+    "name" : "mosquito_formalstd_lettering",
+    "mapTo": "mosquito_formalstd_lettering",
+    "class" : "Material",
+    "persistentId" : "mosquito_formalstd_lettering",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_ao.data.png",
+        "baseColorMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_m.data.png",
+        "normalMap" : "vehicles/common/urb_letterings/mosquito_formalstd_lettering_nm.normal.dds",
+        "opacityMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_o.data.png",
+        "roughnessMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 80,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "mosquito_formalstd_lettering_red" : {
+    "name" : "mosquito_formalstd_lettering_red",
+    "mapTo": "mosquito_formalstd_lettering_red",
+    "class" : "Material",
+    "persistentId" : "mosquito_formalstd_lettering_red",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_ao.data.png",
+        "baseColorMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_b.color.png",
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1
+        ],
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_m.data.png",
+        "normalMap" : "vehicles/common/urb_letterings/mosquito_formalstd_lettering_nm.normal.dds",
+        "opacityMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_o.data.png",
+        "roughnessMap": "/vehicles/common/urb_letterings/mosquito_formalstd_lettering_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 80,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+
+  "prototype_regular_lettering" : {
+    "name" : "prototype_regular_lettering",
+    "mapTo": "prototype_regular_lettering",
+    "class" : "Material",
+    "persistentId" : "prototype_regular_lettering",
+    "Stages" : [
+      {
+        "ambientOcclusionMap": "/vehicles/common/urb_letterings/prototype_regular_lettering_ao.data.png",
+        "baseColorMap": "/vehicles/common/urb_letterings/prototype_regular_lettering_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/urb_letterings/prototype_regular_lettering_m.data.png",
+        "normalMap" : "vehicles/common/urb_letterings/prototype_regular_lettering_n.dds",
+        "opacityMap": "/vehicles/common/urb_letterings/prototype_regular_lettering_o.data.png",
+        "roughnessMap": "/vehicles/common/urb_letterings/prototype_regular_lettering_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 80,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "twcenmt_condensed_lettering" : {
+    "name" : "twcenmt_condensed_lettering",
+    "class" : "Material",
+    "persistentId" : "twcenmt_condensed_lettering",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/urb_letterings/twcenmt_condensed_lettering_d.dds",
+        "normalMap" : "vehicles/common/urb_letterings/twcenmt_condensed_lettering_n.dds",
+        "pixelSpecular" : true,
+        "reflectivityMap" : "vehicles/common/urb_letterings/twcenmt_condensed_lettering_s.dds",
+        "specularMap" : "vehicles/common/urb_letterings/twcenmt_condensed_lettering_s.dds",
+        "specularPower" : 128,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "castShadows" : false,
+    "dynamicCubemap" : true,
+    "mapTo" : "twcenmt_condensed_lettering",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "materialTag2" : "decal",
+    "translucent" : false
+  },
+
+  "brandlogo" : {
+    "name" : "brandlogo",
+    "mapTo": "brandlogo",
+    "class" : "Material",
+    "persistentId" : "brandlogo",
+    "Stages" : [
+      {
+        "baseColorMap": "/vehicles/common/urb_letterings/brandlogo_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/urb_letterings/brandlogo_m.data.png",
+        "normalMap": "/vehicles/common/urb_letterings/brandlogo_nm.normal.png",
+        "opacityMap": "/vehicles/common/urb_letterings/brandlogo_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/common/urb_letterings/brandlogo_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 80,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "bruckell_attachments": {
+    "name": "bruckell_attachments",
+    "mapTo": "bruckell_attachments",
+    "class": "Material",
+    "persistentId": "bruckell_attachments",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/urb_letterings/bruckell_attachments_ao.data.png",
+        "baseColorMap": "/vehicles/common/urb_letterings/bruckell_attachments_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/urb_letterings/bruckell_attachments_m.data.png",
+        "normalMap": "/vehicles/common/urb_letterings/bruckell_attachments_nm.normal.png",
+        "opacityMap": "/vehicles/common/urb_letterings/bruckell_attachments_o.data.png",
+        "roughnessMap": "/vehicles/common/urb_letterings/bruckell_attachments_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 185,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "vehicle_3rdpartyelement_labelpack1" : {
+    "name" : "vehicle_3rdpartyelement_labelpack1",
+    "class" : "Material",
+    "persistentId" : "vehicle_3rdpartyelement_labelpack1",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/urb_letterings/vehicle_3rdpartyelement_labelpack1_d.dds"
+      },
+      {
+        "colorMap" : "vehicles/common/urb_letterings/vehicle_3rdpartyelement_labelpack1_d.dds"
+      },
+      {},
+      {}
+    ],
+    "alphaTest" : true,
+    "castShadows" : false,
+    "dynamicCubemap" : true,
+    "mapTo" : "vehicle_3rdpartyelement_labelpack1",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "materialTag2" : "decal",
+    "translucent" : false
+  }
+}

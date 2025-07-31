@@ -1,0 +1,101 @@
+{
+  "bruckell_blandstroke_01a": {
+    "name": "bruckell_blandstroke_01a",
+    "mapTo": "bruckell_blandstroke_01a",
+    "class": "Material",
+    "persistentId": "bruckell_blandstroke_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_blandstroke_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "bruckell_lotus_01a": {
+    "name": "bruckell_lotus_01a",
+    "mapTo": "bruckell_lotus_01a",
+    "class": "Material",
+    "persistentId": "bruckell_lotus_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_lotus_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "bruckell_boldstar_01a": {
+    "name": "bruckell_boldstar_01a",
+    "mapTo": "bruckell_boldstar_01a",
+    "class": "Material",
+    "persistentId": "bruckell_boldstar_01a",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_m.data.png",
+        "normalMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/bruckell_wheels/bruckell_boldstar_01a_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  }
+}

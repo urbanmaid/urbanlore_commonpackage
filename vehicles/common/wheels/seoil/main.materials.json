@@ -1,0 +1,114 @@
+{
+  "seoil_l6s_01a": {
+    "name": "seoil_l6s_01a",
+    "mapTo": "seoil_l6s_01a",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_l6s_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_l6s_01a_b.color.png",
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_l6s_01a_n.normal.png",
+        "roughnessFactor": 0.35
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_l6s_01b": {
+    "name": "seoil_l6s_01b",
+    "mapTo": "seoil_l6s_01b",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_l6s_01a_ao.data.png",
+        "baseColorFactor": [
+          0.13,
+          0.13,
+          0.13,
+          1
+        ],
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_l6s_01a_n.normal.png",
+        "roughnessFactor": 0.35
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_o8x_01a": {
+    "name": "seoil_o8x_01a",
+    "mapTo": "seoil_o8x_01a",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_o8x_01a_ao.data.png",
+        "baseColorFactor": [
+          0.69,
+          0.69,
+          0.69,
+          1
+        ],
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_o8x_01a_ao.data.png",
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_o8x_01a_n.normal.png",
+        "roughnessFactor": 0.35
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_o8x_01b": {
+    "name": "seoil_o8x_01b",
+    "mapTo": "seoil_o8x_01b",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_o8x_01a_ao.data.png",
+        "baseColorFactor": [
+          0.8,
+          0.62,
+          0.43,
+          1
+        ],
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_o8x_01a_ao.data.png",
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_o8x_01a_n.normal.png",
+        "roughnessFactor": 0.35
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_t6x_01a": {
+    "name": "seoil_t6x_01a",
+    "mapTo": "seoil_t6x_01a",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_t6x_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_t6x_01a_b.color.png",
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_t6x_01a_n.normal.png",
+        "roughnessFactor": 0.5
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

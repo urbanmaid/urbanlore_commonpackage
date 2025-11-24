@@ -92,6 +92,68 @@
     "translucentBlendOp": "None",
     "version": 1.5
   },
+  "seoil_steelies_01a": {
+    "name": "seoil_steelies_01a",
+    "mapTo": "seoil_steelies_01a",
+    "class": "material",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_steelies_01a_b.color.png",
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_steelies_01a_n.normal.png",
+        "roughnessFactor": 0.35
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_steelies_01b": {
+    "name": "seoil_steelies_01b",
+    "mapTo": "seoil_steelies_01b",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_steelies_01b_b.color.png",
+        "colorPaletteMap": "/vehicles/common/wheels/seoil/seoil_steelies_01b_cp.data.png",
+        "metallicFactor": 0.800000012,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_steelies_01a_n.normal.png",
+        "paletteClearCoat": false,
+        "paletteClearCoatRoughness": false,
+        "paletteMetallic": false,
+        "paletteRoughness": false,
+        "roughnessFactor": 0.349999994
+      },
+      {
+        "metallicFactor": null,
+        "paletteClearCoat": null,
+        "paletteClearCoatRoughness": null,
+        "paletteMetallic": null,
+        "paletteRoughness": null,
+        "roughnessFactor": null
+      },
+      {
+        "metallicFactor": null,
+        "paletteClearCoat": null,
+        "paletteClearCoatRoughness": null,
+        "paletteMetallic": null,
+        "paletteRoughness": null,
+        "roughnessFactor": null
+      },
+      {
+        "metallicFactor": null,
+        "paletteClearCoat": null,
+        "paletteClearCoatRoughness": null,
+        "paletteMetallic": null,
+        "paletteRoughness": null,
+        "roughnessFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
   "seoil_t6x_01a": {
     "name": "seoil_t6x_01a",
     "mapTo": "seoil_t6x_01a",
@@ -107,6 +169,51 @@
       {},
       {},
       {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_t6x_01b": {
+    "name": "seoil_t6x_01b",
+    "mapTo": "seoil_t6x_01b",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_t6x_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_t6x_01a_ao.data.png",
+        "colorPaletteMap": "/vehicles/common/wheels/seoil/seoil_t6x_01b_cp.data.png",
+        "metallicFactor": 0.800000012,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_t6x_01a_n.normal.png",
+        "paletteClearCoat": false,
+        "paletteClearCoatRoughness": false,
+        "paletteMetallic": false,
+        "paletteRoughness": false,
+        "roughnessFactor": 0.5
+      },
+      {
+        "metallicFactor": null,
+        "paletteClearCoat": null,
+        "paletteClearCoatRoughness": null,
+        "paletteMetallic": null,
+        "paletteRoughness": null,
+        "roughnessFactor": null
+      },
+      {
+        "metallicFactor": null,
+        "paletteClearCoat": null,
+        "paletteClearCoatRoughness": null,
+        "paletteMetallic": null,
+        "paletteRoughness": null,
+        "roughnessFactor": null
+      },
+      {
+        "metallicFactor": null,
+        "paletteClearCoat": null,
+        "paletteClearCoatRoughness": null,
+        "paletteMetallic": null,
+        "paletteRoughness": null,
+        "roughnessFactor": null
+      }
     ],
     "translucentBlendOp": "None",
     "version": 1.5

@@ -1,4 +1,751 @@
 {
+// A6S
+    "seoil_a6s_22x9_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"22x9.5 Seoil A6S Front Wheels",
+            "value":900,
+        },
+        "slotType" : "wheel_F_6",
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_22x9","tire_F_245_30_22_sport", "Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["seoil_a6s_22x9", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["seoil_a6s_22x9", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //front wheels
+            {"nodeWeight":5.75},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.33, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.60, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //front wheel
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.2967},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":20},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":20},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":20},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+    "seoil_a6s_22x9_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"22x9.5 Seoil A6S Rear Wheels (Colorable)",
+            "value":900,
+        },
+        "slotType" : "wheel_R_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_22x9","tire_R_245_30_22_sport", "Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //alloy wheels
+            ["seoil_a6s_22x9", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["seoil_a6s_22x9", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"collision":true},
+            {"selfCollision":true},
+            //rear wheels
+            {"nodeWeight":5.75},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"frictionCoef":0.5},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.33, 0, 0],
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.60, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.33, 0, 0],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.60, 0, 0],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"breakGroup":""},
+            {"beamDeform":78500,"beamStrength":434000},
+            {"beamSpring":1501000,"beamDamp":25},
+            //rear wheel
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.2967},
+            {"wheelOffset":-0.045},
+            {"hubWidth":0.263},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1801000, "hubTreadBeamDamp":20},
+            {"hubPeripheryBeamSpring":1801000, "hubPeripheryBeamDamp":20},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":20},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+            {"hubBeamDeform":43600, "hubBeamStrength":78000},
+        ],
+    },
+// K6X
+    "seoil_k6x_01a_16x7_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"16x7 Seoil K6X Front Wheels (Grey)",
+            "value":600,
+        },
+        "slotType" : "wheel_F_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_16x7_alt","tire_F_245_75_16_alt_standard","Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["seoil_k6x_01a_16x8", ["wheel_FR","wheelhub_FR"], [], 
+                {
+                    "pos":{"x":-0.54, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":180}, 
+                    "scale":{"x":0.96, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+            ["seoil_k6x_01a_16x8", ["wheel_FL","wheelhub_FL"], [], 
+                {
+                    "pos":{"x": 0.54, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":0},   
+                    "scale":{"x":0.96, "y":1, "z":1},
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"collision":true},
+            {"selfCollision":true},
+            {"nodeWeight":5.0},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"collision":true},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            //hub
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_k6x_01a_16x7_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"16x7 Seoil K6X Rear Wheels (Grey)",
+            "value":600,
+        },
+        "slotType" : "wheel_R_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_16x7_alt","tire_R_245_75_16_alt_standard","Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //rear wheels
+            ["seoil_k6x_01a_16x8", ["wheel_RR","wheelhub_RR"], [], 
+                {
+                    "pos":{"x":-0.54, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":180}, 
+                    "scale":{"x":0.96, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+            ["seoil_k6x_01a_16x8", ["wheel_RL","wheelhub_RL"], [], 
+                {
+                    "pos":{"x": 0.54, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":0},   
+                    "scale":{"x":0.96, "y":1, "z":1},
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            //--REAR WHEELS--
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"nodeWeight":5.0},
+            {"selfCollision":true},
+            {"collision":true},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"collision":true},
+            //wheel nodes
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            //--REAR WHEELS--
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_k6x_01b_16x7_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"16x7 Seoil K6X Front Wheels (Diamond-Cut)",
+            "value":600,
+        },
+        "slotType" : "wheel_F_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_16x7_alt","tire_F_245_75_16_alt_standard","Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["seoil_k6x_01a_16x8", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.54, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":0.96, "y":1, "z":1}}],
+            ["seoil_k6x_01a_16x8", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.54, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":0.96, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"collision":true},
+            {"selfCollision":true},
+            {"nodeWeight":5.0},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"collision":true},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            //hub
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_k6x_01b_16x7_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"16x7 Seoil K6X Rear Wheels (Diamond-Cut)",
+            "value":600,
+        },
+        "slotType" : "wheel_R_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_16x7_alt","tire_R_245_75_16_alt_standard","Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //rear wheels
+            ["seoil_k6x_01a_16x8", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.54, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":0.96, "y":1, "z":1}}],
+            ["seoil_k6x_01a_16x8", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.54, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":0.96, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            //--REAR WHEELS--
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"nodeWeight":5.0},
+            {"selfCollision":true},
+            {"collision":true},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"collision":true},
+            //wheel nodes
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            //--REAR WHEELS--
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_k6x_01a_17x8_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"17x8 Seoil K6X Front Wheels (Gray)",
+            "value":600,
+        },
+        "slotType" : "wheel_F_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_17x8_altb","tire_F_235_70_17_altb_standard","Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["seoil_k6x_01a_17x8", ["wheel_FR","wheelhub_FR"], [], 
+                {
+                    "pos":{"x":-0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":180}, 
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+            ["seoil_k6x_01a_17x8", ["wheel_FL","wheelhub_FL"], [], 
+                {
+                    "pos":{"x": 0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":0},   
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"collision":true},
+            {"selfCollision":true},
+            {"nodeWeight":5.0},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"collision":true},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            //hub
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_k6x_01a_17x8_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"17x8 Seoil K6X Rear Wheels (Gray)",
+            "value":600,
+        },
+        "slotType" : "wheel_R_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_17x8_altb","tire_R_235_70_17_altb_standard","Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //rear wheels
+            ["seoil_k6x_01a_17x8", ["wheel_RR","wheelhub_RR"], [], 
+                {
+                    "pos":{"x":-0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":180}, 
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+            ["seoil_k6x_01a_17x8", ["wheel_RL","wheelhub_RL"], [], 
+                {
+                    "pos":{"x": 0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":0},   
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_k6x_01b","seoil_k6x_01a"]]
+                }
+            ],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            //--REAR WHEELS--
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"nodeWeight":5.0},
+            {"selfCollision":true},
+            {"collision":true},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"collision":true},
+            //wheel nodes
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            //--REAR WHEELS--
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_k6x_01b_17x8_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"17x8 Seoil K6X Front Wheels (Diamond-Cut)",
+            "value":600,
+        },
+        "slotType" : "wheel_F_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_17x8_altb","tire_F_235_70_17_altb_standard","Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["seoil_k6x_01a_17x8", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.52, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["seoil_k6x_01a_17x8", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.52, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"collision":true},
+            {"selfCollision":true},
+            {"nodeWeight":5.0},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"collision":true},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            //hub
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_k6x_01b_17x8_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"17x8 Seoil K6X Rear Wheels (Diamond-Cut)",
+            "value":600,
+        },
+        "slotType" : "wheel_R_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_17x8_altb","tire_R_235_70_17_altb_standard","Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //rear wheels
+            ["seoil_k6x_01a_17x8", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.52, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+            ["seoil_k6x_01a_17x8", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.52, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            //--REAR WHEELS--
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"nodeWeight":5.0},
+            {"selfCollision":true},
+            {"collision":true},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"collision":true},
+            //wheel nodes
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            //--REAR WHEELS--
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
 // L6S
     "seoil_l6s_01a_16x7_F": {
         "information":{
@@ -555,6 +1302,172 @@
             //rear wheels
             ["seoil_l6s_01a_17x8", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.52, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
             ["seoil_l6s_01a_17x8", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.52, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            //--REAR WHEELS--
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"nodeWeight":5.0},
+            {"selfCollision":true},
+            {"collision":true},
+            {"group":"wheelhub_RR"},
+            ["rw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"collision":true},
+            //wheel nodes
+            {"group":"wheelhub_RR"},
+            ["rw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_RL"},
+            ["rw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            //--REAR WHEELS--
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["rw1r","rw1rr"],
+            ["rw1l","rw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_l6s_01c_17x8_F": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"17x8 Seoil L6S Front Wheels (Black)",
+            "value":600,
+        },
+        "slotType" : "wheel_F_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_F_17x8_altb","tire_F_235_70_17_altb_standard","Front Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //wheels
+            ["seoil_l6s_01a_17x8", ["wheel_FR","wheelhub_FR"], [], 
+                {
+                    "pos":{"x":-0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":180}, 
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_l6s_01a","seoil_l6s_01b"]]
+                }
+            ],
+            ["seoil_l6s_01a_17x8", ["wheel_FL","wheelhub_FL"], [], 
+                {
+                    "pos":{"x": 0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":0},   
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_l6s_01a","seoil_l6s_01b"]]
+                }
+            ],
+        ],
+        "nodes": [
+            ["id", "posX", "posY", "posZ"],
+            {"frictionCoef":0.5},
+            {"nodeMaterial":"|NM_METAL"},
+            {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+            {"collision":true},
+            {"selfCollision":true},
+            {"nodeWeight":5.0},
+            {"group":"wheelhub_FR"},
+            ["fw1r", -0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1l", 0.36, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FR"},
+            ["fw1rr", -0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"group":"wheelhub_FL"},
+            ["fw1ll", 0.65, 0.0, 0.0, {"staticCollision":false}],
+            {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+            {"collision":true},
+            {"group":""},
+        ],
+        "beams": [
+            ["id1:", "id2:"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+            //hub
+            {"beamSpring":1501000,"beamDamp":25},
+            {"beamDeform":110000,"beamStrength":1100000},
+            ["fw1r","fw1rr"],
+            ["fw1l","fw1ll"],
+            {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        ],
+        "pressureWheels": [
+            ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+            {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+            //general settings
+            {"hubRadius":0.235},
+            {"wheelOffset":-0.015},
+            {"hubWidth":0.225},
+            {"numRays":16},
+
+            //hub options
+            {"hubTreadBeamSpring":1350900, "hubTreadBeamDamp":10},
+            {"hubPeripheryBeamSpring":1350900, "hubPeripheryBeamDamp":10},
+            {"hubSideBeamSpring":2001000, "hubSideBeamDamp":10},
+            {"hubBeamDeform":56500, "hubBeamStrength":95000},
+            {"hubNodeWeight":0.65},
+            {"hubNodeMaterial":"|NM_METAL"},
+            {"hubFrictionCoef":0.5},
+        ],
+    },
+    "seoil_l6s_01c_17x8_R": {
+        "information":{
+            "authors":"BeamNG",
+            "name":"17x8 Seoil L6S Rear Wheels (Black)",
+            "value":600,
+        },
+        "slotType" : "wheel_R_6",
+
+        "slots": [
+            ["type", "default", "description"],
+            ["tire_R_17x8_altb","tire_R_235_70_17_altb_standard","Rear Tires"],
+        ],
+        "flexbodies": [
+            ["mesh", "[group]:", "nonFlexMaterials"],
+            //rear wheels
+            ["seoil_l6s_01a_17x8", ["wheel_RR","wheelhub_RR"], [], 
+                {
+                    "pos":{"x":-0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":180}, 
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_l6s_01a","seoil_l6s_01b"]]
+                }
+            ],
+            ["seoil_l6s_01a_17x8", ["wheel_RL","wheelhub_RL"], [], 
+                {
+                    "pos":{"x": 0.52, "y":0.0, "z":0.0}, 
+                    "rot":{"x":0, "y":0, "z":0},   
+                    "scale":{"x":1, "y":1, "z":1}, 
+                    "materialOverride":[["seoil_l6s_01a","seoil_l6s_01b"]]
+                }
+            ],
         ],
         "nodes": [
             ["id", "posX", "posY", "posZ"],

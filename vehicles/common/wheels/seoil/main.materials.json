@@ -1,4 +1,66 @@
 {
+  "seoil_a6s_01a": {
+    "name": "seoil_a6s_01a",
+    "mapTo": "seoil_a6s_01a",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_a6s_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_a6s_01a_b.color.png",
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_a6s_01a_n.normal.png",
+        "roughnessMap": "/vehicles/common/wheels/seoil/seoil_a6s_01a_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_k6x_01a": {
+    "name": "seoil_k6x_01a",
+    "mapTo": "seoil_k6x_01a",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_k6x_01a_ao.data.png",
+        "baseColorMap": "/vehicles/common/wheels/seoil/seoil_k6x_01a_b.color.png",
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_k6x_01a_n.normal.png",
+        "roughnessFactor": 0.35
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "seoil_k6x_01b": {
+    "name": "seoil_k6x_01b",
+    "mapTo": "seoil_k6x_01b",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_k6x_01a_ao.data.png",
+        "baseColorFactor": [
+          0.13,
+          0.13,
+          0.13,
+          1
+        ],
+        "metallicFactor": 0.8,
+        "normalMap": "/vehicles/common/wheels/seoil/seoil_k6x_01a_n.normal.png",
+        "roughnessFactor": 0.35
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
   "seoil_l6s_01a": {
     "name": "seoil_l6s_01a",
     "mapTo": "seoil_l6s_01a",
@@ -26,14 +88,14 @@
       {
         "ambientOcclusionMap": "/vehicles/common/wheels/seoil/seoil_l6s_01a_ao.data.png",
         "baseColorFactor": [
-          0.13,
-          0.13,
-          0.13,
+          0.18,
+          0.18,
+          0.18,
           1
         ],
         "metallicFactor": 0.8,
         "normalMap": "/vehicles/common/wheels/seoil/seoil_l6s_01a_n.normal.png",
-        "roughnessFactor": 0.35
+        "roughnessFactor": 0.15
       },
       {},
       {},

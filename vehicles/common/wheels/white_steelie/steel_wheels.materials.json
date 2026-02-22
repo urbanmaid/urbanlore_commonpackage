@@ -6,22 +6,25 @@
     "persistentId": "white_steelie_01a",
     "Stages": [
       {
-        "baseColorMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_b.color.png",
+        "baseColorFactor": [
+          0.730800986,
+          0.730800986,
+          0.730800986,
+          1
+        ],
+        "baseColorMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_b.color.dds",
         "metallicFactor": 1,
-        "metallicMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_m.data.png",
-        "normalMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_n.normal.png",
-        "roughnessMap": "/vehicles/common/wheels/white_steelie/steelwheel_01a_i_r.data.png",
-        "useAnisotropic": true
+        "metallicMap": "/vehicles/common/wheels/steelwheel_01a_m.data.dds",
+        "normalMap": "/vehicles/common/wheels/steelwheel_01a_n.dds",
+        "roughnessMap": "/vehicles/common/wheels/steelwheel_01a_r.data.dds"
       },
       {},
       {},
       {}
     ],
-    "activeLayers": 2,
     "dynamicCubemap": true,
     "materialTag0": "beamng",
     "materialTag1": "vehicle",
-    "order_simset": 0,
     "version": 1.5
   }
 }
